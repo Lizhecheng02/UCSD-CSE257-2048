@@ -41,14 +41,11 @@ NOTE: For grading, we will run tests in the same way on other test states and se
 
 Visualization
 -----
-To visualize the performance gap between search depth = 1 and search depth = 3, 
-set the `use_enhanced_score` parameter in the `expectimax` inside the `ai.py` file to `False` and run:
-
+To visualize the performance gap between search depth = 1 and search depth = 3, set the `use_enhanced_score` parameter in the `expectimax` inside the `ai.py` file to `False` and run:
 ```
 python plot1.py
 ```
-To visualize the improvement of using the enhanced scoring calculation mechanism, 
-set the `use_enhanced_score` parameter in the `expectimax` inside the `ai.py` file to `True` and run:
+To visualize the improvement of using the enhanced scoring calculation mechanism, set the `use_enhanced_score` parameter in the `expectimax` inside the `ai.py` file to `True` and run:
 ```
 python plot2.py
 ```
